@@ -1,0 +1,47 @@
+.header {
+  background: #404040;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  height: 6vh;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 2rem;
+}
+
+.left a i {
+  color: #faaa14;
+  font-size: 20px;
+}
+
+.left i:hover {
+  color: aliceblue;
+  transition: ease-in-out 0.2s;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.laguage-switch img {
+  height: 22px;
+  margin: 5px 10px 0;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background: #feb605;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.register-button span {
+  text-transform: uppercase;
+}
