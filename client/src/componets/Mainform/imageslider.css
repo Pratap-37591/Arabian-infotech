@@ -1,0 +1,45 @@
+.imageslider-container{
+    z-index: -9999;
+}
+
+.react-multiple-carousel__arrow--left {
+  position: absolute;
+  bottom: 15rem;
+  background-color: rgb(168, 164, 164);
+}
+
+.react-multiple-carousel__arrow--right {
+  position: absolute;
+  bottom: 15rem;
+  right: 90rem;
+  background-color: rgb(168, 164, 164);
+}
+
+.react-multiple-carousel__arrow--left:hover {
+  background-color: orange;
+}
+.react-multiple-carousel__arrow--right:hover {
+  background-color: crimson;
+}
+
+.custom-shape-divider-bottom-1690392427 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1690392427 svg {
+  position: relative;
+  display: block;
+  width: calc(225% + 1.3px);
+  height: 252px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1690392427 .shape-fill {
+  fill: #ffffff;
+}
